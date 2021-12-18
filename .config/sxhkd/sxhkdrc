@@ -7,4 +7,10 @@ super + {1-9}
 super + shift + {1-9}
 	wormc move-active-tag {1-9}
 super + r
-	rofi -show combi
+    rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
+super + w
+    firefox
+super + n
+    thunar
+super + p
+    sh ~/.config/rofi/powermenu
