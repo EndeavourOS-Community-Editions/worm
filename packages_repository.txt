@@ -23,3 +23,5 @@ xfce4-terminal
 #xed #if okay.. ?
 picom
 polybar
+papirus-icon-theme
+xcursor-neutral
