@@ -24,6 +24,7 @@ picom
 polybar
 papirus-icon-theme
 xcursor-neutral
-#xed
-#dunst
-#dex
+xed
+dunst
+dex
+sxhkd
