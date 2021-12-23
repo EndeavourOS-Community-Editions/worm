@@ -12,5 +12,5 @@ super + w
     firefox
 super + n
     thunar
-super + p
-    sh ~/.config/rofi/powermenu
+#super + p
+#    sh ~/.config/rofi/powermenu
