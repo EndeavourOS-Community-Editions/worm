@@ -76,7 +76,7 @@ pin-workspaces = true
 
 ; Create click handler used to focus desktop
 ; Default: true
-enable-click = false
+enable-click = true
 
 ; Create scroll handlers used to cycle desktops
 ; Default: true
