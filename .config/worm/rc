@@ -14,7 +14,7 @@ wormc frame-right 'M;C'
 wormc button-offset 5 7
 wormc close-path ~/.config/worm/buttons/close.png
 wormc maximize-path ~/.config/worm/buttons/maximize.png
-wormc button-size 15
+wormc button-size 16
 wormc border-width 2
 wormc struts 42 10 10 10
 wormc gaps 10
