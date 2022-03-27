@@ -10,9 +10,10 @@ wormc frame-active-pixel $((16#FF383C4A))
 wormc frame-inactive-pixel $((16#FF383C4A)) # small bug in worm can sometimes cause different colors to look glitchy
 wormc frame-left T
 wormc text-font 'Jetbrains Mono:size=10'
-wormc frame-right 'M;C'
+wormc frame-right 'I;M;C'
 wormc button-offset 5 7
 wormc close-path ~/.config/worm/buttons/close.png
+wormc minimize-path ~/.config/worm/buttons/minimize.png
 wormc maximize-path ~/.config/worm/buttons/maximize.png
 wormc button-size 16
 wormc border-width 2
