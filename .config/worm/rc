@@ -2,7 +2,7 @@
 #sh ~/.screenlayout/monitor.sh &
 sxhkd &
 picom &
-sh ~/.config/polybar/launch.sh &
+tint2 &
 feh --bg-scale /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png &
 #dbus-launch dunst --config ~/.config/dunst/dunstrc &
 #dex -a -s /etc/xdg/autostart/:~/.config/autostart/ &
