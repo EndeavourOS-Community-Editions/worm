@@ -21,7 +21,7 @@ xdg-user-dirs-gtk
 feh
 xfce4-terminal
 picom
-polybar
+tint2
 papirus-icon-theme
 xcursor-neutral
 xed
