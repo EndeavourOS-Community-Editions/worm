@@ -1,3 +1,4 @@
+xsettingsd
 rofi
 worm
 lightdm
