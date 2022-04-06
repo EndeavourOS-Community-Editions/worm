@@ -12,7 +12,7 @@ menu_margin_x   = 10
 menu_margin_y   = 45
 
 menu_width      = 250
-menu_radius     = 10
+menu_radius     = 0
 menu_border     = 1
 
 menu_padding_top    = 5
