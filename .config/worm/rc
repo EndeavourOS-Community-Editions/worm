@@ -7,7 +7,7 @@ feh --bg-scale /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png &
 #dbus-launch dunst --config ~/.config/dunst/dunstrc &
 #dex -a -s /etc/xdg/autostart/:~/.config/autostart/ &
 wormc frame-active-pixel $((16#FF383C4A))
-wormc frame-inactive-pixel $((16#FF383C4A)) # small bug in worm can sometimes cause different colors to look glitchy
+wormc frame-inactive-pixel $((16#FF383C4A)) # todo: diff color for active window (the bug here was fixed, this works now)
 wormc frame-left T
 wormc text-font 'Jetbrains Mono:size=10'
 wormc frame-right 'I;M;C'
@@ -17,6 +17,8 @@ wormc minimize-path ~/.config/worm/buttons/minimize.png
 wormc maximize-path ~/.config/worm/buttons/maximize.png
 wormc button-size 16
 wormc border-width 2
+wormc border-active-pixel $((16#FF5294e2))
+wormc border-inactive-pixel $((16#FF7c818c))
 wormc struts 42 10 10 10
 wormc gaps 10
 wormc layout floating
