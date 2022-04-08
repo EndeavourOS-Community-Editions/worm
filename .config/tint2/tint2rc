@@ -123,7 +123,7 @@ gradient_id_pressed = 0
 
 #-------------------------------------
 # Panel
-panel_items = PFLTSBCP
+panel_items = FLTSBCP
 panel_size = 100% 35
 panel_margin = 0 0
 panel_padding = 0 0 15
@@ -269,23 +269,6 @@ ac_disconnected_cmd =
 
 #-------------------------------------
 # Button 1
-button = new
-button_icon = /usr/share/endeavouros/EndeavourOS-icon.png
-button_text = 
-button_tooltip = Launch jgmenu
-button_lclick_command = jgmenu
-button_rclick_command = jgmenu
-button_mclick_command = jgmenu
-button_uwheel_command = 
-button_dwheel_command = 
-button_font_color = #000000 100
-button_padding = 8 1
-button_background_id = 2
-button_centered = 0
-button_max_icon_size = 0
-
-#-------------------------------------
-# Button 2
 button = new
 button_icon = /usr/share/icons/Papirus-Dark/symbolic/actions/system-log-out-symbolic.svg
 button_text = 
