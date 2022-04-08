@@ -29,7 +29,7 @@ then
     slock
 elif [ "$selected_option" == "$logout" ]
 then
-    openbox --exit
+    pkill -u user
 elif [ "$selected_option" == "$shutdown" ]
 then
     systemctl poweroff
