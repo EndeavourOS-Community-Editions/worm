@@ -14,3 +14,7 @@ super + n
     thunar
 #super + p
 #    sh ~/.config/rofi/powermenu
+super + t
+	wormc layout tiling
+super + f
+	wormc layout floating
