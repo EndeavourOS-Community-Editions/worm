@@ -29,7 +29,7 @@ then
     slock
 elif [ "$selected_option" == "$logout" ]
 then
-    pkill -u user
+    pkill -u $(id -u -n)
 elif [ "$selected_option" == "$shutdown" ]
 then
     systemctl poweroff
