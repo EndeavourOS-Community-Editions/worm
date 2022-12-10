@@ -4,6 +4,7 @@ sxhkd &
 picom &
 tint2 &
 feh --bg-scale /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 #dbus-launch dunst --config ~/.config/dunst/dunstrc &
 #dex -a -s /etc/xdg/autostart/:~/.config/autostart/ &
 wormc frame-active-pixel $((16#FF383C4A))
