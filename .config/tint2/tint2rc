@@ -166,7 +166,9 @@ taskbar_name_background_id = 0
 taskbar_name_active_background_id = 1
 taskbar_name_font = Cantarell 9
 taskbar_name_font_color = #dddddd 100
-taskbar_name_active_font_color = #ffffff 100
+# Change the color of the number of the selected "tag" to "orange"
+# taskbar_name_active_font_color = #ffffff 100
+taskbar_name_active_font_color = #f57900 100
 taskbar_distribute_size = 1
 taskbar_sort_order = none
 task_align = left
